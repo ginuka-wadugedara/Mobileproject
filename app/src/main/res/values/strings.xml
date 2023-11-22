@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mobile project</string>
+    <string name="title_activity_googaleclass_maps">GoogaleclassMapsActivity</string>
+    <string name="title_activity_googalelibrary_maps">GoogalelibraryMapsActivity</string>
+</resources>

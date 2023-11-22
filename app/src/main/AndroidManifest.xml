@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION"
+        tools:ignore="CoarseFineLocation" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Online Paper Master"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MobileProject"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".Shoew_pdf"
+            android:label="Show PDF Activity" />
+        <activity
+            android:name=".userprofilrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutMainActivity"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDDKKDvCMlL1zuoc9kauMCsnBlo79Muoso" />
+
+        <activity
+            android:name=".GoogalelibraryMapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_googalelibrary_maps" />
+        <activity
+            android:name=".GoogaleclassMapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_googaleclass_maps" />
+        <activity
+            android:name=".LocationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EconomicsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BusinessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AccountancyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CommerceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChemistryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BiologyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MathematicsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".physicsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScienceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeScienceActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PoliticalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GeographyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArtsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".subjectsActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
